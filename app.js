@@ -22,7 +22,7 @@ app.get("/works", (request, response, next) =>
   response.sendFile(__dirname + "/views/works.html")
 );
 
-// works route:
+// gallery route:
 app.get("/gallery", (request, response, next) =>
   response.sendFile(__dirname + "/views/gallery.html")
 );
